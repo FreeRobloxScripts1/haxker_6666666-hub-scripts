@@ -1570,6 +1570,7 @@ function Kavo.CreateLib(kavName, themeList)
                 itemTextbox.Position = UDim2.new(0.0970000029, 0, 0.273000002, 0)
                 itemTextbox.Size = UDim2.new(0, 138, 0, 14)
                 itemTextbox.Font = Enum.Font.FredokaOne
+                itemTextbox.RichText = true
                 itemTextbox.Text = dropname
                 itemTextbox.RichText = true
                 itemTextbox.TextColor3 = themeList.TextColor
