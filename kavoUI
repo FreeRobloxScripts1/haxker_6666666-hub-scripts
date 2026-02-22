@@ -1491,6 +1491,7 @@ function Kavo.CreateLib(kavName, themeList)
                 dropOpen.AutoButtonColor = false
                 dropOpen.Font = Enum.Font.FredokaOne
                 dropOpen.Text = ""
+                dropOpen.RichText = true
                 dropOpen.TextColor3 = Color3.fromRGB(0, 0, 0)
                 dropOpen.TextSize = 14.000
                 dropOpen.ClipsDescendants = true
